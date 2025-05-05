@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-image">
+                        <img src="images/Linkedin Profie PIc.jpeg" alt="Your Name - Professional Photo">
+                    </div>
+                    <div class="hero-text">
+                        <h1>B. SAI KRUSHNA</h1>
+                        <h2>Full-Stack Web Developer</h2>
+                        <p class="intro">A passionate about developing full-stack applications, professional with strong foundation in front-end and back-end technologies. Eager to contribute innovative solutions and grow in a dynamic environment.</p>
+                        <a href="resume/SAI KRUSHNA_ATS_Resume.pdf" download class="btn btn-resume" target="_blank">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>Java, Python</li>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>React.js</li>
+                            <li>SQL</li>
+                            <li>Git, Git hub</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Effective Communication</li>
+                            <li>Good in Time Management</li>
+                            <li>Adaptability with Team and Working Environment</li>
+                            <li>Excellent Problem-Solving and Analytical skills</li>
+                            <li>Committed to continuous upskilling by staying current with emerging technologies, frameworks, and best practices to deliver innovative and efficient solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>My Portfolio</h3>
+                        <p>My Portfolio is a personal website designed to showcase my skills, projects, and professional journey as a developer. Built entirely with front-end technologies, the portfolio features a responsive design, interactive elements, and a clean, user-friendly layout to provide visitors with an engaging experience.</p>
+                        <p class="technologies">Technologies: HTML, CSS, JavaScript, Bootstrap</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="https://github.com/SAI-KRUSHNA/my-portfolio/tree/main/portfolio" target="_blank" class="btn">Source Code</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <h3>Data-Driven Innovations In Supply Chain Management With Qlik Insights</h3>
+                        <p>Developed interactive dashboards using Qlik Sense to visualize key supply chain metrics and identify inefficiencies. Unified data sources to perform predictive analysis, enabling demand forecasting and proactive inventory planning. Delivered actionable insights to optimize operations and reduce costs.</p>
+                        <p class="technologies">Technologies: Qlik Sense</p>
+                        <div class="project-links">
+                            <a href=" https://www.youtube.com/watch?v=O1enmPAVvHE" target="_blank" class="btn">Demo for Project Preparation</a>
+                            <a href="https://github.com/SAI-KRUSHNA/Qlik-Sense-project/tree/main/Qlik%20Project" target="_blank" class="btn">Source</a>
+                        </div>
+                    </article>
+                    <!-- Add more project cards as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-card">
+                    <h3> Bachelor of Technology (B.Tech)</h3>
+                    <p>Sree Vidyanikethan Engineering College, Tirupati</p>
+                    <p>Dept.of Information Technology</p>
+                    <p>Graduation Year : 2025</p>
+                    <p>Key Coursework: Database Management Systems (DBMS),Object-Oriented Programming (OOP), Web Development, Machine Learning and Artificial Intelligence</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2>Experience/Internships</h2>
+                <div class="experience-card">
+                    <h3>AI-ML Virtual Internship</h3>
+                    <p>AWS Academy | May-July 2023</p>
+                    <ul>
+                        <li>Completed comprehensive training modules and assessments, earning certifications in foundational AI/ML </li>
+                    </ul>
+                    <h3>Business Analytics Virtual Internship</h3>
+                    <p>Qlik | April-June 2024</p>
+                    <ul>
+                        <li>Gained practical experience using Qlik Sense and other analytics tools to analyze and visualize business data, helping to derive actionable insights.</li>
+                    </ul>
+                    <h3>Android Developer Virtual Internship</h3>
+                    <p>Google | April-June 2024</p>
+                    <ul>
+                        <li>Gained hands-on experience in Android app development, building functional and user-friendly mobile applications using Java/Kotlin and Android Studio.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications-section">
+            <div class="container">
+                <h2>Professional Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="certification-card" onclick="showCertificate('certifications/Google Data Analytics.jpg')">
+                        <h3>Google Data Analytics</h3>
+                        <p>Issuing Organization : Google</p>
+                        <p>Jul 23, 2024</p>
+                        <div class="view-certificate">
+                            <i class="bi bi-eye"></i> View Certificate
+                        </div>
+                    </div>    
+                    <div class="certification-card" onclick="showCertificate('certifications/AWS Cloud Support.jpg', 'AWS Cloud Support Associate')">
+                        <h3>AWS Cloud Support Associate</h3>
+                        <p>Issuing Organization : AWS</p>
+                        <p>Dec 22, 2024</p>
+                        <div class="view-certificate">
+                            <i class="bi bi-eye"></i> View Certificate
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Modal -->
+        <div id="certificateModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="certificateTitle"></h3>
+                <img id="certificateImage" src="" alt="Certificate">
+            </div>
+        </div>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p>Ph no : 8919788591</p>
+                    <p>Email: saikrushna1432@gmail.com</p>
+                    <p>Location: Andhra Pradesh, India</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/saikrushna1432/" target="_blank" rel="noopener">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/SAI-KRUSHNA" target="_blank" rel="noopener">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
+                        <a href="https://www.instagram.com/omg_its_sk_/profilecard/?igsh=cTkwZjhxeDIzNGg" target="_blank" rel="noopener">
+                            <i class="bi bi-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bandlamudi Sai Krushna. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
